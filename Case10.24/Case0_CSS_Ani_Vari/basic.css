@@ -44,7 +44,15 @@ div.grid2 {
 
 div.grid3 {
 	background-color: #85E7F2;
+	border-radius: 6px;
+	-webkit-transition: background .2s linear, border-radius 1s ease-in 1s;
+	transition: background .2s linear, border-radius 1s ease-in 1s;
 }
+
+div.grid3:hover {
+	background: #ff2956;
+	border-radius: 60%;
+	}
 
 div.grid4 {
 	background-color: #7ED955;
